@@ -1,0 +1,547 @@
+/*  header  */
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  margin-top: 61px;
+  background-color: #F2F6FF;
+  position: relative;
+  z-index: 9999;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 160px;
+}
+
+.user-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 100px;
+}
+
+.main-nav .item {
+  padding: 10px 15px;
+}
+
+.user-nav .item {
+  padding: 10px 15px;
+}
+
+.logo-title {
+  color: #23233c;
+  font-size: 47px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.logo {
+  width: 73px;
+  height: 69px;
+}
+
+.item {
+  color: #7F8DA0;
+  font-size: 25px;
+}
+
+#item-login {
+  color: #23233C;
+  font-weight: bold;
+}
+
+#item-register {
+  color: #6bc37c;
+  font-weight: bold;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+
+/*body */
+
+body {
+  background-color: #F2F6FF;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.top-pos {
+  margin-top: 100px;
+}
+
+.section-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  color: #98A4B5;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #7F8DA0;
+}
+
+.subheadline {
+  position: relative;
+  padding-top: 20px;
+  color: #23233C;
+}
+
+.subheadline::before {
+  content: '';
+  display: inline-block;
+  height: 8px;
+  width: 62px;
+  background-color: #23233C;
+  position: absolute;
+  top: 0;
+  border-radius: 3px;
+}
+
+.subheadline_paragraph {
+  color: #7F8DA0;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+.title-recepies {
+  color: #23233C;
+  font-size: 70px;
+}
+
+.color-span {
+  color: #6CC57C;
+}
+
+.login-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.login-picture {
+  width: 288px;
+  height: 623px;
+  position: relative; 
+  bottom: 120px;
+  right: 55px;
+}
+
+body::after {
+  content: '';
+  display: inline-block;
+  width: 955px;
+  height: 927px;
+  transform: matrix(0.8, 0.6, -0.6, 0.8, 0, 0);
+  background: transparent linear-gradient(230deg, #F2F6FF 0%, #F2F6FF 74%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 50px 50px 50px #abb6cc33;
+  border-radius: 49px;
+  opacity: 1;
+  position: absolute;
+  left: auto;
+  top: 100px;
+  right: -50%;
+  z-index: -10;
+}
+
+body::before {
+  content: '';
+  display: inline-block;
+  width: 955px;
+  height: 927px;
+  transform: matrix(0.8, 0.6, -0.6, 0.8, 0, 0);
+  background: transparent linear-gradient(230deg, #F2F6FF 0%, #F2F6FF 74%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 50px 50px 50px #abb6cc33;
+  border-radius: 49px;
+  opacity: 1;
+  position: absolute;
+  left: auto;
+  bottom: -400px;
+  left: -50%;
+  z-index: -10;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23233C;
+  color: #FCFCFC;
+  width: 226px;
+  height: 47px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+#mac {
+  width: 31px;
+  height: 38px;
+  padding-left: 70px;
+}
+
+#android {
+  padding-left: 30px;
+}
+
+.social-network-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 2px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 25px;
+}
+
+.activity-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.activity-picture {
+  width: 288px;
+  height: 624px;
+  position: relative; 
+  top: 20px;
+  right: 60px;
+}
+
+.small-title {
+  font-size: 50px;
+  color: #23233C;
+}
+
+.title-rectangle {
+  font-size: 35px;
+  color: #23233C;
+  font-weight: bold;
+}
+
+.calories-fats {
+  font-size: 12px;
+  color: #7F8DA0;
+  position: relative;
+}
+
+.calories-number {
+  color: #EE6A6E;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.number-calories-grams {
+  font-size: 19px;
+}
+
+.fat-number {
+  color: #23233C;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.item-size {
+  width: 322px;
+  height: 103px;
+  
+}
+
+.fifty-section .section-column {
+  width: 50%;
+}
+
+.align-items-top {
+  align-items: flex-start;
+}
+
+.dish-wrapper {
+  box-shadow: 50px 50px 50px #ABB6CC33;
+  border-radius: 153px 153px 50px 50px;
+  padding: 150px 40px 40px 40px;
+  position: relative;
+}
+
+.dish-wrapper.left {
+  margin-right: 80px;
+}
+
+.dish-wrapper.left .dish-image {
+  top: -36%;
+  left: -31%;
+}
+
+.dish-wrapper.right {
+  margin-top: 120px;
+}
+
+.dish-wrapper.right .dish-image {
+  top: -22%;
+  left: -13%;
+}
+
+.circle {
+  height: 409px;
+  width: 409px;
+  background-color: #D0F0D6;
+  border-radius: 50%;
+  position: relative; 
+  bottom: 150px;
+}
+
+.dish-image {
+  position: absolute;
+  top: -60%;
+  left: -20%;
+}
+
+.dish-name {
+  font-size: 35px;
+  color: #23233C;
+
+}
+
+.dish-calories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calories-number {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.calories-number .number {
+  font-size: 26px;
+}
+
+.calories-number {
+  font-size: 26px;
+}
+
+.nutri-words {
+  font-size: 12px;
+  color: #7F8DA0;
+}
+
+.right-article {
+  padding-left: 90px;
+}
+
+.right-article::after {
+  content: '';
+  display: inline-block;
+  width: 301px;
+  height: 301px;
+  border-radius: 50%;
+  background: #D0F0D6 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  top: 120px;
+  left: 620px;
+}
+
+.nutritional-items {
+  padding-left: 200px;
+  z-index: 0;
+}
+
+.nutritional-wrapper {
+  box-shadow: 0px 10px 20px #19166D12;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  padding: 40px 40px 40px 40px;
+  position: absolute;
+  top: 190px;
+  left: 40px;
+  z-index: 1;
+}
+
+.login-nutritional-information {
+  box-shadow: 0px 10px 20px #19166D12;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  position: absolute;
+  bottom: 400px;
+  left: 300px;
+  z-index: 1;
+}
+
+.activity-results {
+  box-shadow: 0px 10px 20px #19166D12;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  position: absolute;
+  top: 480px;
+  left: 1020px;
+  z-index: 1;
+}
+
+.nutri-title {
+  color: #23233C;
+  text-align: center;
+  font-size: 21px;
+  padding-bottom: 20px;
+}
+
+.login-nutritional-title {
+  color: #23233C;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.activity-results-title {
+  font-size: 17px;
+  color: #23233C;
+  font-weight: bold;
+  padding-bottom: 12px;
+}
+
+.nutritional-words {
+  font-size: 11px;
+  color: #7F8DA0;
+}
+
+.activity-lost-level {
+  font-size: 10px;
+  color: #23233c;
+}
+
+.calories-words {
+  font-size: 9px;
+  color: #7F8DA0;
+}
+
+.kilogram-level {
+  font-size: 19px;
+  color: #6CC57C;
+  font-weight: bold;
+}
+
+.number-nutri {
+  font-size: 31px;
+}
+
+.number-color {
+  color: #23233C;
+}
+
+.fruit-image {
+  width: 120px;
+  height: 121px;
+  padding-left: 30px;
+}
+
+.fruit-item {
+  position: absolute;
+  bottom: -90px;
+  display: flex;
+}
+
+.p-relative {
+  position: relative;
+}
+
+/* footer */
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  margin-top: 200px;
+  background-color: #F2F6FF;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.footer-main-nav {
+  display: flex;
+  list-style: none;
+  padding-left: 160px;
+}
+
+.footer-user-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-user-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  font-size: 34px;
+  color: #6CC57C;
+  font-weight: bold;
+}
+
+.footer-item {
+  color: #7F8DA0;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+.footer-item-nav {
+  color: #3A466D;
+}
+
+.distance-image {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.footer-subtitle-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: #23233C;
+  font-size: 25px;
+}
+
+.footer-subtitle {
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.footer-license {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
